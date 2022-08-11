@@ -1,13 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    padding: 0 20% 0 20%;
 }
 
 .hero-banner {
     display: flex;
     flex-direction: column;
-    margin: 0 200px 100px 200px;
 }
 
 .hero-top {
@@ -18,15 +17,14 @@ body {
 }
 
 .hero-title {
-    margin-top: 5px;
+    margin: 5px auto 0 0;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     padding: 0;
-    margin-top: 5px;
-    margin-left: auto
+    margin: 0 0 0 auto;
 }
 
 li {
@@ -36,7 +34,7 @@ li {
 .hero-bottom {
     display: flex;
     justify-content: space-between;
-    flex: auto;
+    flex: 1;
 }
 
 .intro {
@@ -62,8 +60,9 @@ li {
 
 
 .hero-couple {
-    height: auto;
-    width: 500px;
+    display: flex;
+    height: 500px;
+    width: auto;
     margin-left: 100px;
 }
 
@@ -71,18 +70,20 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px 80px 40px 80px;
-    flex: 1;
+    margin: 100px auto 40px auto;
+    
 }
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
 }
 
 .card {
-    margin: 5px 50px;
+    margin-top: 5px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,7 +98,7 @@ li {
 
 .img {
     height: auto;
-    width: 250px;
+    max-width: 250px;
 }
 
 .quote {
@@ -106,14 +107,14 @@ li {
     justify-content: center;
     align-items: center;
     height: 600px; 
-    margin: 0 300px;   
+    margin-top: 50px;   
 }
 
 .text {
     font-size: 24pt;
     display: flex;
     flex-wrap: wrap;
-    max-width: 450px;
+    max-width: 650px;
 }
 
 .verse {
